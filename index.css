@@ -1,0 +1,90 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-image: url("clouds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button{
+    display: flex;
+    margin-top: 10%;
+    max-width: 500px;
+}
+input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #850696;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #57da0b;
+}
+.first{
+    text-align: center;
+    margin-top: 3%;
+    color: white;
+    border: solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.first .second{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.first .second .date{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.first .second #temperature{
+    font-size: 25px;
+    margin-top: -20px;
+}
+.first .third{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.first #name{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+@media screen and (max-width: 400px) {
+    .button{
+        max-width: 200px;
+        margin-top: 30%;
+    }
+    .first{
+        margin: auto;
+        border: none;
+        color: black;
+        margin-bottom: 10%;
+        margin-top: 10px;
+    }
+    
+}
